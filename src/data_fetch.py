@@ -14,14 +14,17 @@ def fetch_weather_data():
     params = {
         "latitude": 41.0082,
         "longitude": 28.9784,
-        "start_date": "2021-01-01",
+        "start_date": "2015-01-01",
         "end_date": "2026-05-15",
         "daily": [
             "temperature_2m_max",
             "temperature_2m_min",
             "temperature_2m_mean",
             "precipitation_sum",
-            "wind_speed_10m_max"
+            "wind_speed_10m_max",
+            "relative_humidity_2m_mean",
+            "cloud_cover_mean",
+            "pressure_msl_mean"
         ],
         "timezone": "Europe/Istanbul"
     }
@@ -49,4 +52,3 @@ def fetch_weather_data():
 
 if __name__ == "__main__":
     fetch_weather_data()
- 
