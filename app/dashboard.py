@@ -193,3 +193,4 @@ elif page == "Prediction Tool":
             st.warning(f"The model predicts rain tomorrow. Probability: {probability:.2%}")
         else:
             st.success(f"The model predicts no rain tomorrow. Probability of rain: {probability:.2%}")
+ 

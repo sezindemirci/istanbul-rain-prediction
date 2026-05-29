@@ -108,3 +108,4 @@ def train_and_evaluate_models(input_path="data/weather_processed.csv"):
 
 if __name__ == "__main__":
     train_and_evaluate_models()
+ 
